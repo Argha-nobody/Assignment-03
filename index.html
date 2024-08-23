@@ -304,17 +304,50 @@
 
     <!-- FORM SECTION STARTS HERE  -->
 
-    <main class=" w-[1440px] h-[920px] bg-[]">
+    <main class=" lg:w-[1345px] lg:h-[800px]  bg-[url('bg.jpg')] bg-cover bg-center">
 
       <!-- DESCRIPTION  -->
 
       <div class=" text-center ">
-        <button class=" mt-16 bg-lime-100 px-3 py-1 rounded-3xl font-semibold">
+        <button class=" mt-16 bg-lime-100 px-3 py-1 rounded-3xl text-black  font-semibold">
           <i class="fa fa-arrow-right first   rounded-3xl "></i>
           Let's Connect
         </button>
-        <h1 class="lg:text-5xl text-3xl   font-bold mt-4" > Let's Discuss Next Project </h1>
-        <p class="mt-5 text-gray-700 font-medium"> The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents. </p>
+        <h1 class="lg:text-5xl text-3xl text-black   font-bold mt-4" > Let's Discuss Next Project </h1>
+        <p class="mt-6 text-gray-700 font-medium"> The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents. </p>
+      </div>
+
+      <!-- INPUT BOXES  -->
+
+      <div>
+        
+        <!-- FIRST COLUMN  -->
+
+        <div class="lg:flex grid gap-3 justify-center mt-8 gap-5 rounded-3xl">
+          <input class="w-96 h-14 rounded-xl px-3 bg-white" type="text" name="First Name*" placeholder="First Name*" id="">
+
+          <input class="w-96 h-14 rounded-xl px-3" type="text" name="" id=""  placeholder="Last Name*">
+
+        </div>
+
+        <div class=" lg:flex grid gap-3 justify-center mt-5 gap-5 rounded-3xl"  >
+          <input class="w-96 h-14 rounded-xl px-3"  type="text" name="" id=""  placeholder="Phone Number*">
+
+          <input class="w-96 h-14 rounded-xl px-3"  type="text" name="" id="" placeholder="Email Number*">
+
+        </div>
+
+        <div class="lg:flex  justify-center mt-5 m-4">
+          <input class=" lg:w-[790px] lg:h-[210px] w-full text-start pb-40 rounded-xl px-3 "  type="text" name="" id=""  placeholder="Write your message here">
+        </div>
+
+        <div class="card-actions lg:flex justify-center lg:mt-4">
+          <button class=" rounded-full custom-primary lg:px-80 px-36  py-1  text-black lg:font-bold  font-semibold lg:text-base"> Send Mail
+              <i class="fa fa-arrow-right first bg-black text-white -rotate-45 rounded-3xl px-2 py-2 ml-1">
+              </i>
+          </button>
+        </div>
+
       </div>
 
     </main>
